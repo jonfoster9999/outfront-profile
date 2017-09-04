@@ -9,6 +9,12 @@ a.list-group-item.active small {
     margin:20px auto 1px;    
 }
 
+.disclaimer {
+	font-size: .8em;
+	margin-top: -25px;
+	margin-bottom: 20px;
+}
+
 img {
 	box-shadow: 1px 1px 1px 1px gray;
 }
@@ -23,6 +29,12 @@ img {
 
 small {
 	font-size: .3em;
+}
+
+.host {
+	font-size: .6em;
+	position: relative;
+	top: -2px;
 }
 
 /*@media only screen and (min-width: 960px) {
