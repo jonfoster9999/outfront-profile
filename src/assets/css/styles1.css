@@ -1,0 +1,649 @@
+
+*{margin:0px; padding:0}
+a{font-size:13px; font-weight:bold; color:#57585b; text-decoration:none;}
+a:hover{text-decoration:underline; color:#58b7dd;}
+body{ background:#d1d2d4 url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/bodyBg.jpg) repeat-x; background-size:auto; font-family:Arial;  font-weight:normal; font-size:16px; color:#333;}
+
+h1{font-size:36px; font-weight:normal; color:#59287c;}
+h2{font-size:30px; font-weight:normal; color:#59287c;}
+h3{font-size:24px; font-weight:normal; color:#59287c;}
+h4{font-size:16px; font-weight:bold; color:#333;}
+
+.bgCircles{ width:100%; height:430px; position:absolute; z-index:1; top:172px;}
+.bgCircles div {margin:0px auto;  background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/bgCircles.png) no-repeat right; width:100%; max-width:1400px; height:430px;}
+.wrapper{margin:0px auto; max-width:1020px; position:relative; z-index:2; padding-top:162px; }
+
+
+header{float:left; width:100%; height:162px; clear:both;position:fixed; background:#fff url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/topnavBg.jpg?v=2) repeat-x; z-index:9; -webkit-transition:all 0.1s ease 0s;-moz-transition:all 0.1s ease 0s;-ms-transition:all 0.1s ease 0s;-o-transition:all 0.1s ease 0s; transition:all 0.1s ease 0s;  top:0; left:0}
+.headSmall{ height:140px; -webkit-transition:all 0.1s ease 0s;-moz-transition:all 0.1s ease 0s;-ms-transition:all 0.1s ease 0s;-o-transition:all 0.1s ease 0s; transition:all 0.1s ease 0s; }
+header .header{width:100%; max-width:1000px; margin:0px auto; height:100%;position:relative}
+header .logoColm{width:24.5%; float:left; height:70%; margin-top:25px; padding-left:1%; position:absolute; z-index:2; }
+
+header .logoColm img{height:100%;}
+.headSmall .logoColm img{ width:48%; height:60%; padding-top:15px;}
+.topNav{/*margin-left:32%;*/ float:left;}
+/* here!!!! */
+.topNav li, nav.mainNav li{background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/divider.png) no-repeat right; padding:0px 10px 0 8px; list-style:none; float:left; height:40px; line-height:40px;}
+nav.mainNav li#last{background:url() no-repeat right; padding:0px 10px 0 8px; list-style:none; float:left; height:40px; line-height:40px;}
+.topNav li{height:45px !important;}
+.topNav li:last-child, .signin li:last-child{background:none !important}
+.signin li a {font:bold 12px arial;}
+.topNav li a{ color:#666666; text-decoration:none; font:bold 12px arial; }
+nav.mainNav li a{ color:#666666; text-decoration:none; font:bold 14px arial; width:100% !important;}
+nav.mainNav li.thrdLvlMn li:nth-of-type(1) a{color:#fff !important}
+.OFMdynamic {border:1px solid #53b6df; overflow:hidden}
+.thrdLvlMn .OFMdynamic{border:1px solid #53b6df !important}
+.OFMdynamic a {font-weight:normal !important}
+.topNav li a:hover{ color:#58b7dd !important;}
+.topNav .colm1 li a.active { color:#58b7dd !important; font-weight:bold !important}
+.signin li a:hover{ color:#58b7dd !important;}
+.topNav ul{position:relative}
+.topNav ul ul{display:none; position:absolute; width:235px; background:#d1d2d4; z-index:5; margin-top:-3px}
+
+.topNav ul ul li, .topNav ul ul li:last-child {background: url("https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/arrVlt.png") no-repeat scroll 15px 15px rgba(0, 0, 0, 0) !important;border-bottom: 1px solid #dddddf;height: 36px !important;line-height: 36px;padding: 0;text-indent: 33px; width: 100%;}
+.topNav ul ul li a {font-weight:normal; display:block; line-height:36px;}
+.topNav ul ul li a:hover {color:#fff !important; background:#53b6df url("https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/arrWht.png") no-repeat scroll 15px 15px !important;}
+.topNav ul ul li:hover, .topNav ul ul li:active {color:#53b6df; background:#53b6df url("https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/arrWht.png") no-repeat scroll 15px 15px !important; }
+.countryList{position:relative;}
+.topNav li, .signin li {line-height:44px;}
+
+/*Select a Market Begins*/
+.select-market{position:;}
+.select-market a{}
+.select-market-table{position:fixed; top:39px; left:0; z-index:700; width:100%; height:100%; /*border:1px solid #57c0e9;*/ padding:0%; display:none; }
+.select-market-table .sltMrtCont { margin:0 auto; width:100%; max-width:950px; height:100%; background:#fff;position:relative }
+.select-market .threeColmsPrnt{float:none; margin:0 auto; }
+.close-market{background:#57c0e9; color:#fff; border-radius:15px; font:normal 20px arial; text-align:center; width:30px; height:30px; position:absolute; top:10px; right:10px; cursor:pointer;}
+.select-market-table .colm ul {display:block !important; background:none !important; position:relative !important; width:100% !important}
+.select-market-table .colm ul li{padding:0px !important}
+.blkOvly {position:fixed; width:100%; height:100%; background:#000; opacity:0.8; z-index:600; top:0; left:0; display:none}
+
+header nav{ width:72%; float:left; height:150px; position:absolute; right:0; z-index:3;}
+.contact{float:right; width:15.6%; height:34px; background: url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/contactBg.png) no-repeat; position:absolute; z-index:4; right:0; width:151px; color:#fff !important; font:bold 14px/26px arial; text-align:center; padding-top:9px; z-index:10}
+
+.market-search-wrap{margin:12px auto; width:50%; text-align:center;}
+.select-market h1{ color:#5a2a82;  font:36px arial; }
+.select-market h4{color:#333; font:bold 16px arial;}
+.select-market h6 {border-bottom:1px solid #333; padding-bottom:15px; margin-top:20px}
+.market-search, .zip-search{ width:60%; margin:10px auto; display:table;}
+.zip-search input[type="text"]{border:1px solid #59287c;}
+.zip-search {width:71%}
+.market-search input, .zip-search input{border:1px solid transparent; float:left; padding:4px; height:24px; width:85%;  }
+.zip-search span{float:left; clear:both; margin:5px}
+.market-search-icon, .zip-search-icon{cursor:pointer; float:right; background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/srcIc.png) no-repeat center center; height:34px; width:34px;  }
+.market-search-icon .colm4row, .zip-search-icon .colm4row{height:400px; overflow-y:scroll; overflow-x:hidden;}
+/*Select a Market Ends*/
+
+.contact:hover{background: url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/contactBgHover.png) no-repeat; text-decoration:none; }
+.signin{float:right; height:40px; width:190px; position:absolute; right:140px; top:0;}
+.menuCont{float:right; width:98%; min-height:50px;margin-top:65px;  -webkit-transition:all 0.1s ease 0s;-moz-transition:all 0.1s ease 0s;-ms-transition:all 0.1s ease 0s;-o-transition:all 0.1s ease 0s; transition:all 0.1s ease 0s;  min-width:702px;}
+.menuContSmall{margin-top:55px; -webkit-transition:all 0.1s ease 0s;-moz-transition:all 0.1s ease 0s;-ms-transition:all 0.1s ease 0s;-o-transition:all 0.1s ease 0s; transition:all 0.1s ease 0s; }
+.menuCont ul.root{width:auto; margin-right:10px; float:right; display:block;}
+
+.menuCont ul.root li{float:left; list-style:none; width:auto;}
+
+
+.menuCont ul.root ul{display:none; position:absolute; left:0; background: url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/menuSubBg.png) repeat; width:180px;}
+.menuCont li.thrdLvlMn ul.OFMdynamic{min-height:428px;}
+.menuCont ul.root ul ul{display:block; position:relative}
+.menuCont ul.root ul ul li{clear:both;}
+.menuCont ul.root li li{ background: url("https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/arrVlt.png") no-repeat scroll 6px 17px rgba(0, 0, 0, 0) !important; padding: 0; text-indent: 10px; width: 100%;}
+.menuCont ul.root li li:hover{color:#fff; background:#53b6df url("https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/arrWht.png") no-repeat scroll  6px 17px !important; }
+.menuCont ul.root li li:hover a{ color:#fff;    }
+.thrdLvlMn ul li:nth-of-type(1) a{font-weight:bold; color:#fff;}
+.menuCont ul.root li.thrdLvlMn li li:hover a, .menuCont ul.root li.thrdLvlMn li li:hover{ color:#fff !important;    }
+.menuCont ul.root li.thrdLvlMn li:last-child {border-right: 0px; width: 24.85%}
+.menuCont ul.root li.thrdLvlMn li li:last-child {width:100%;}
+.menuCont ul.root li.thrdLvlMn li{ background:#58b7dd !important; width:24.9%; padding:0px; border-right:1px solid #fff; height:47px; line-height:47px;}
+/*.menuCont ul.root li.thrdLvlMn li.lvl2_52{width:27% !important; }
+.menuCont ul.root li.thrdLvlMn li.lvl2_67{width:22.8% !important;}
+.menuCont ul.root li.thrdLvlMn li.lvl2_73, .menuCont ul.root li.thrdLvlMn li.lvl2_34 {border-right:0px; width:24.87%}*/
+.menuCont ul.root li.thrdLvlMn li:nth-last-child(){border-right:0px;}
+.menuCont ul.root li.thrdLvlMn li a{height:47px; line-height:47px;}
+.menuCont ul.root li.thrdLvlMn li li{width:100%; background: url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/arrVlt.png) no-repeat 12px 17px !important; border-right:0px; height:auto !important; line-height:normal !important }
+.menuCont ul.root li.thrdLvlMn li li a{height:auto !important; line-height:normal !important; text-indent:0px; width:85% !important; padding:13px 0 13px 15%; }
+.menuCont ul.root li.thrdLvlMn li li:hover {background:#53b6df url("https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/arrWht.png") no-repeat scroll  12px 17px !important; }
+
+.menuCont ul.root li li ul{width:100% !important;}
+.menuCont ul.root li.OFMstatic a:nth-child(1) {color:#5b2a82 !important}
+.menuCont ul.root li.OFMstatic a:nth-child(1):hover {color:#53b6df !important}
+
+.menuCont ul.root li.OFMstatic li li a:nth-child(1) {color:#57585b !important}
+.menuCont ul.root li.OFMstatic li li a:nth-child(1):hover {color:#5a247e !important}
+
+.menuCont ul.root li.OFMstatic li a:nth-child(1){color:#57585b !important}
+.menuCont ul.root li.OFMstatic li a:nth-child(1):hover {color:#fff !important}
+
+.menuCont ul.root li.thrdLvlMn li a:nth-child(1) {color:#fff !important}
+.menuCont ul.root li.thrdLvlMn li a:nth-child(1):hover {color:#fff !important}
+.menuCont ul.root li.thrdLvlMn li li a:nth-child(1):hover {color:#fff !important}
+
+.OFMstatic:nth-child(6) ul{left:-51px !important;}
+
+.menuCont .mn{width:65px !important; height:72px; background:#5b2684 url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/menuIc.png) no-repeat center; position:absolute; right:0; cursor:pointer; top:43px;}
+.menuCont .mnActive{ background:#57585b url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/mnActive.png) no-repeat center;}
+/*.thrdLvlMn{ position:inherit !important}*/
+
+.menuCont ul.root li.OFMstatic a{color:#5a2e80; display:block; height:40px; line-height:40px;}
+/*.menuCont div:nth-child(2){float:left; margin-left:0px;}*/
+
+.thrdLvlMn ul{width:98% !important; left:inherit !important; right:0px;}
+.thrdLvlMn ul li ul a{color:#57585b !important; font-weight:normal !important; padding-left:7px;}
+.menuCont ul.root li ul a{color:#57585b; font-weight:normal; padding-left:7px;}
+.thrdLvlMn li{text-indent:0px}
+.thrdLvlMn li a{color:#fff !important; font-weight:bold !important ; padding-left:0px;}
+
+
+.hrBanLnk{display:block; width:100%;  cursor:pointer}
+.hrBanLnk:hover{text-decoration:none !important}
+.search{float: right; height: 19px; margin:12px 0 0 6px; width: 18px;}
+.srcPopCopy {display:none; background: none repeat scroll 0 0 #57585b; padding:5px 10px; height: 45px;position: absolute; right: 0px; top: 107px; width: 235px; z-index: 3;}
+.ms-mpSearchBox{width:235px;}
+.ms-mpSearchBox .ms-srch-sb-border{border:1px solid transparent;}
+.ms-srch-sb > input{height:34px; width:185px; color:#d1d2d4; font:italic 14px arial;}
+#SearchBox {padding-top:5px;}
+.ms-srch-sb-searchLink img{display:none}
+.ms-srch-sb-searchLink { background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/searchIcon.png) no-repeat; width:40px; height:34px; outline-style:none; outline-color:#57585b}
+.ms-srch-sb-searchLink:hover { border:1px solid transparent; background-color:transparent;}
+.clear{ clear:both}
+.row{ float:left; clear:both; width:100%;}
+.alignCenter{text-align:center}
+.alignRight{text-align:right}
+.alignLeft{text-align:left}
+.floatRight{ float:right}
+.dskNo{display:none;}
+.dskYes{display:inline;}
+span.globe{padding:3px 10px; background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/globeIc.png) no-repeat 0 2px}
+span.userIc{padding:1px 10px;background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/userIc.png) no-repeat}
+span.srcIc{padding:3px 10px; background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/srcIc.png) no-repeat;}
+.targetIc{ padding:30px; background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/targetIc.png) no-repeat; display:inline-flex;}
+.mediaIc{ padding:30px; background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/mediaIc.png) no-repeat; display:inline-flex;}
+.resultIc{ padding:30px; background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/resultIc.png) no-repeat; display:inline-flex;}
+.paddingTop20{padding-top:20px}
+.border_1SolidBlack{border:1px solid black}
+
+a.bluTxt{font:bold 13px arial; color:#57c0e9;}
+.rgtArr{ background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/arrVlt.png) no-repeat right 5px; padding-right:15px;}
+.smallBtn{padding:13px 26px; display:inline-table; background:#57c0e9; margin:0 10px; font:18px arial; color:#fff !important; text-decoration:none !important; min-height:12px;  font-variant:small-caps;}
+.smallBtn:hover{background:#4aaed6; text-decoration:none !important}
+.smallBtnGry{padding:13px 26px; display:inline-table; background:#939597; margin:0 10px; font:normal 18px arial; font-variant:small-caps; color:#fff !important; text-decoration:none !important; height:12px; }
+.smallBtnGry:hover{background:#666666; text-decoration:none !important}
+.BtnAutoSpace8X15{padding:8px 15px; background:#D0D0D0; margin:0 10px; border-radius:8px; border:1px solid #ABABAB; font:bold 14px arial; color:#000 !important; text-decoration:none; float:none !important; width:auto !important; display:inline !important; height:12px;}
+
+
+
+/*Footer Begins*/
+footer{ width:96%; padding:35px 2%; float:left; clear:both; background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/footerBg.jpg) repeat; color:#a9a9a9}
+footer .titleRow{width:100%; height:50px; padding:20px 0; margin:0px;}
+footer h3{color:#fff; margin-bottom:15px; font:bold 14px arial;}
+footer .titleRow .colm1{ float:left; width:30%; background:#CCCCCC; height:50px;}
+footer .titleRow .colm2{ float:left; width:70%; background:#BBB8B8; height:50px;}
+footer .colm{ float:right; width:25%; min-height:100px;}
+footer .colm .row{margin-bottom:30px;}
+footer .colm .row img{margin:5px;}
+footer .paddingTop20 a{ padding:0 15px 0 22px;}
+footer .paddingTop20 a:hover{text-decoration:underline; color:#57c0e9 !important}
+footer .paddingTop20 a:nth-child(1){padding-left:0px; margin-bottom:5px;}
+footer .colm ul li{ list-style:none; padding:5px 0; }
+
+footer a{font:normal 14px arial; text-decoration:none; color:#a9a9a9 !important; margin-right:10px}
+footer a:hover {color:#51bfeb !important; text-decoration:underline !important}
+
+footer .colm .bold a{ font:bold 14px arial; color:#fff !important;}
+footer .colm p{margin:10px 0;}
+footer .colm input{ width:90%; border:0;}
+footer .colm input[type="text"]{ text-indent:15px; background:#333; color:#a9a9a9; height:47px; line-height:47px; font-style:italic}
+footer .colm input[type="submit"]{font:bold 14px arial; color:#fff; background:#57c0e9; margin-top:15px; clear:both; display:table; padding:13px 0; margin-left:0px; margin-top:5px; width:94%;-webkit-appearance: none;-webkit-border-radius: 0; height:auto !important}
+footer .colm input[type="submit"]:hover{background:#4aaed6}
+footer .colm ul li a{color:#a9a9a9 !important}
+footer .colm ul li a:hover { text-decoration:underline; color:#57c0e9 !important}
+
+footer .sol {width:70%;}
+footer .sol h3{margin-bottom:0px;}
+footer .sol a{margin-top:20px;}
+
+footer a.googleIc { display:block; width:26px; height:26px; float:left; background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/googleIc.png) no-repeat;}
+footer a.fbIc { display:block; width:26px; height:26px; float:left; background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/fbIc.png) no-repeat;}
+footer a.twiterIc { display:block; width:28px; height:26px; float:left; background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/twiterIc.png) no-repeat;}
+footer a.lnkdinIc { display:block; width:26px; height:26px; float:left; background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/lnkdinIc.png) no-repeat;}
+footer a.pintrestIc { display:block; width:26px; height:26px; float:left; background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/pintrestIc.png) no-repeat;}
+footer a.instgramIc { display:block; width:26px; height:26px; float:left; background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/instgramIc.png) no-repeat;}
+footer a.youtubeIc { display:block; width:26px; height:26px; float:left; background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/youtubeIc.png) no-repeat;}
+footer a.blogIc { display:block; width:26px; height:26px; float:left; background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/blogIc.png) no-repeat;}
+
+footer a.googleIc:hover { background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/googleIcHov.png) no-repeat;}
+footer a.fbIc:hover { background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/fbIcHov.png) no-repeat;}
+footer a.twiterIc:hover { background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/twiterIcHov.png) no-repeat;}
+footer a.lnkdinIc:hover { background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/lnkdinIcHov.png) no-repeat;}
+footer a.pintrestIc:hover { background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/pintrestIcHov.png) no-repeat;}
+footer a.instgramIc:hover { background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/instgramIcHov.png) no-repeat;}
+footer a.youtubeIc:hover { background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/youtubeIcHov.png) no-repeat;}
+footer a.blogIc:hover { background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/blogIcHov.png) no-repeat;}
+
+footer .copyRightRow{float:left; clear:both; width:100%; margin-top:20px; padding-top:20px; border-top:1px solid #626367}
+footer .copyRightRow a {margin:0px 9px !important}
+.copyRightRow a:nth-child(1){margin-left:0px !important}
+.copyRight{float:right; background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/globeIcGry.png) no-repeat; padding-left:20px; font:normal 13px arial;}
+/*Footer Ends*/
+
+/* Main Menu Styles */
+.mainnav{float:left; width:66.5%; height:40px; margin-top:35px; text-align:right; margin-left:7%; position:relative; z-index:1}
+.brdSprt{color:#fff !important}
+
+/*Select a Market Begins*/
+.sltMrtRow, .sltMrtRowTab{width:94.5%; float:left; clear:both; padding:0px 1.5%; border-top:1px solid #cacaca}
+.topNav .sltMrtRow {width:97% !important; border-top:0px !important}
+.sltMrtRow .titleRow{width:70%; float:left; font:bold 16px arial; color:#59287c; margin:12px 0 0;}
+.sltMrtRow .titleRow h5{color:#333}
+.sltMrtRow .btnColm{width:30%; float:left; text-align:right }
+.sltMrtRow .title{ border-bottom: 1px dotted #999;color: #53b6df;font: bold 14px arial;margin: 15px 0 10px;padding-bottom: 5px; float:left; width:100%}
+.sltMrtRow .mrktItm{ clear: both;color: #333;float: left;font: 14px arial;padding: 8px 5px;width: 100%;}
+.sltMrtRow .mrktItm a{color:#333; text-decoration:none; font:normal 14px arial;}
+.sltMrtRow .mrktItm a:hover{text-decoration:underline;}
+.sltMrtRow .row .colm{width:29%; float:left; margin:0px 2%; clear:none}
+.sltMrtRow .smallBtn{margin:0 0 23px; width:70%; text-align: center;}
+.sltMrtRow .smallBtn:hover{color:#fff !important;}
+.sltMrtRow .titleRow .colm2{float:left; width:30%; text-align:center}
+.sltMrt-cant {clear:both; }
+
+.sltMrt-cant h4 { border-bottom:1px dotted #999;  padding:12px 0;  }
+.sltMrt-cant a:last-child{margin:0 0 0 24px;}
+.sltMrtCont .row{ overflow:auto;}
+.sltMrtCont .row .row{height:auto !important; overflow:inherit !important;}
+/*Select a Market Ends*/
+
+/*Tab Title Consustency*/
+.sltMrtRowTab {border:none}
+
+/*email subscribe Begins*/
+.email-subscribe h3 {font-size: 13px;}
+.email-subscribe input[type="text"]{width:93%; border:2px solid #333; }
+.email-subscribe .input-email-valid, .email-subscribe .input-email-valid:hover{border:2px solid #2D9C00 !important; width:93%; background:url("https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/email-valid.png") no-repeat 96% center #333 !important;}
+.email-subscribe .input-email-invalid, .email-subscribe .input-email-invalid:hover{border:2px solid #C30000 !important; width:93%; background:url("https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/email-invalid.png") no-repeat 96% center #333 !important;}
+.email-subscribe input[type="submit"]{width:99% !important;}
+.email-subscribe .email-valid, .email-subscribe .email-invalid{ float:left; padding:4%; margin:8px 0 0; width:89%; }
+.email-subscribe .email-valid{color:#2D9C00; border:2px solid #2D9C00; background:#E9FEEB;}
+.email-subscribe .email-invalid{color:#C30000; border:2px solid #C30000; background:#FCE4E4; font-style:italic;}
+/*email subscribe Ends*/
+
+/*Contact Begins*/
+.spot{padding:8px 0 !important; clear:both;}
+.spot input[type="text"], .spot textarea{min-width:250px;}
+/*.spot select{min-width:263px;}*/
+.spot textarea{height:95px;}
+
+.errorDisplay{border:1px solid #C30000; background:#FCE4E4; padding:2% 4% !important; display:none;}
+.errorDisplay strong{display:block; padding:0 0 10px;}
+.spot.error select, .spot.error input[type="text"]{border:1px solid #C30000; /*background:#FCE4E4;*/}
+/*.spot > label, .radio-group .label{float:left; width:25%; text-align:right; float:left; padding:0 10px 0 0 !important;  }*/
+.radio-group{clear:both;}
+.radio-group label{padding:0 15px 0 8px;}
+
+.spot input[type="submit"]{background:#57c0e9; color:#fff; padding:10px 12px; text-align:center; text-transform:uppercase; font:bold 16px arial; border:0; margin:0; padding:10px 0; width:100%; }
+.spot > label .req, .radio-group .req{display:inline; margin:0;}
+.spot > label, .radio-group .label{text-align:left; padding:0 !important; width:100%; height:24px;  float: left; }
+.spot input[type="text"]{width:50% !important; height:30px; }
+.spot textarea{width:50% !important;}
+.spot select{width:51.5% !important; height:30px;}
+.spot input[type="file"]{height:30px; width:50% !important;}
+
+.spot > span, .radio-group > span{padding:0 !important; }
+.set-hdr .req{padding:0 !important; }
+
+.spot.actions{float:left; width:51.5%;}
+
+.spot.opts > label{float:left; width:90%; margin:0;}
+.spot.opts > input[type="checkbox"]{float:left; margin:3px 6px 0 0;}
+
+.spot.time select:nth-of-type(1){width:35% !important;}
+.spot.time select:nth-of-type(2){ width:16.1% !important;}
+ 
+
+.aoi{}
+.contactInfo{} 
+
+.grybox-contact{}
+.grybox-contact .grybox{padding:5% !important; margin:0 0 15px 0;}
+.grybox-contact dl{}
+.grybox-contact dt{padding:15px 0 2px 0;}
+.grybox-contact dt:first-child{padding:0 0 2px 0;}
+.grybox-contact dd a{margin:0;}
+
+.team-contact{background:#f1f1f2; padding:2%; display:table; float:left; clear:both; margin:10px 0 0; }
+.team-contact > div{float:left; width:85%; }
+.team-contact > a{float:left; margin:0; }
+
+.contact-before-after{border:0 !important;}
+.contact-before-after{border-bottom: 2px solid #ccc; border-top: 2px solid #ccc; clear: none; }
+.contact-before-after > div{background:#f1f1f2; padding:5%; }
+.contact-before-after h3{ color: #59287c; font: bold 16px arial; height:22px; }
+.contact-before-after .contact-before{margin:10px 0;}
+.contact-before-after .contact-after{}
+.contact-before-after .contact-smallBtn{clear:both; }
+.contact-before-after .smallBtn{margin:0; padding:8px; text-align:center; width:92%;}
+
+.checkbox{width:103% !important;}
+.required.checkbox > input{float:left; margin:3px 7px 0 0;}
+.required.checkbox > label { float:left; width:96%;}
+.required.checkbox a{display:inline; margin:0; }
+
+/*Contact Ends*/
+
+
+
+
+@media (min-width:900px)
+{
+	.thrdLvlMn{ position:inherit !important}
+	.menuCont ul.root li.OFMstatic{ position:relative}
+}
+
+@media (max-width:940px){
+    .wrapper{overflow:hidden; padding-top:115px;}
+    .bgCircles{display:none}
+	
+	.topNav{ width:100%; margin-left:0px;}
+
+	.topNav ul li:nth-child(1){display:block; z-index:99}
+    .OFMstatic:nth-child(6) ul{left:0px !important}
+	.contact{ float:right; position:relative; height:62px; background:none; color:#333 !important; line-height:95px; border-left:1px solid #d1d2d4; border-right:1px solid #d1d2d4; margin-top:44px}
+	.dwArr:nth-of-type(1){ display:block}
+	header{ position:absolute}
+	header .logoColm{width:auto !important; height:96px; margin-top:25px;}
+	header .logoColm img.logo{height:90%; margin-top:4px;}
+	header, header nav, header .header{height:150px !important;}
+    header nav{width:37% !important}
+    /*Select a Market Begins*/
+    .select-market-table{width:95%; top:43px; margin-left:1%;}
+    .market-search-wrap{width:70%;}		
+    /*Select a Market Ends*/
+
+	.search{ float:right; width:75px; text-align:center; height:115px; line-height:115px; margin-top:0px; top:40px;}
+	.search span.srcIc{float:none;}
+    .contact:hover {background:none !important}
+	.tabNo{display:none;}
+	.tabYes{display:inline;}
+    .bannerImg{cursor:pointer}
+    .bannerImg img {height:100%;}
+    .bannerImg a{border:0px;}
+    .bannerImg a:hover{text-decoration:none}
+    footer {padding:35px 1%; width:98%}
+	footer .titleRow .colm1{display:none}
+	footer .titleRow .colm2{width:100%;}
+	footer .colm{width:33%;}	
+	footer .colm:nth-of-type(1){width:100%; margin-top:25px;}
+	footer .colm:nth-of-type(5) p:nth-of-type(2){display:none}
+	
+	footer .colm:nth-of-type(1) .row{width:50%; clear:none; float:right}
+	footer .colm .row img{margin:0px;}
+	footer .colm input[type="text"]{width:60%; float:left}
+	footer .colm input[type="submit"]{width:30%; margin-top:0; padding:16px 0; clear:none; float:left;}
+	footer .copyRightRow a{font:normal 13px arial !important}
+
+    .dvcdrop {display:block}
+	nav{height:115px !important; }
+	.menuCont{ margin-top:0px; float:right; height:115px; min-width:inherit !important;}
+	nav ul.root{display:none; float:right; background:#dfdfdf; width:247px !important; top:115px;  right:0;margin-right:0px !important; position:absolute;}
+	nav ul.root ul{width:200px !important; z-index:2}
+	.thrdLvlMn ul{ position:absolute !important; top:0;}
+	nav ul.root li{width:100% !important; clear:both; border-bottom:1px solid #b9babb; text-overflow:ellipsis !important; overflow:hidden}
+	nav ul.root li a, nav ul.root li{color:#57585b !important; font:normal 14px/41px arial; text-indent:10px !important; text-indent:0 !important; }
+	nav ul.root li a, nav ul.root li a{padding-left:0px !important;}
+
+    .thrdLvlMn li a{font-weight:normal !important}
+	.menuCont ul.root li.thrdLvlMn li li{ background-image:none !important;}
+	li.menuBack, .menuBreadcrum{ color:#5a2a82 !important; cursor:pointer; padding:11px 0 11px 20px !important; text-indent:0px !important}
+	nav ul.root li ul{right:-245px; left:inherit !important}
+	nav ul.root li.OFMstatic span.arrw{display:inline-block; width:1px; height:1px;  padding:18px 20px !important; margin:0px !important; float:right; background: url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/arrVlt.png) no-repeat center; cursor:pointer}
+	.menuCont ul.root li.thrdLvlMn li{ background:none !important; height:auto !important; line-height:normal !important; text-indent:0px !important}
+	nav ul.root li.OFMstatic span.lnk{ background:none; display:inline-block; width:74%; }
+	.menuBreadcrum{ font-style:italic !important}
+	.menuCont li ul.OFMdynamic{min-height:370px;}
+	.menuCont ul.root li.thrdLvlMn li li a{height: auto !important; line-height:normal !important; padding-left:0px !important}
+
+	.OFMdynamic, .OFMdynamic ul{top:0px; min-height:235px;}
+	.menuCont ul.root ul{ top:0px; width:245px !important}
+	.menuCont ul.root ul ul{display:none; top:0px; }
+	.signin{right:0; /*width:172px;*/}
+    .signin ul {display:block; width:100%;}
+	.search{height:72px !important; width:65px !important; position:absolute; right:60px; line-height:82px;}
+	.contact{width:105px !important; margin-right:130px; margin-top:0px; line-height:60px;}
+    .srcPopCopy {right:64px; top:115px !important; display:none; position:absolute; }
+    
+    .menuCont ul.root li.OFMstatic a:nth-child(1), .menuCont ul.root li.thrdLvlMn li a:nth-child(1), .menuCont ul.root li.thrdLvlMn li a:nth-child(1):hover{color:#57585b !important}
+    .menuCont ul.root li li{background:none !important; color:#57585b !important}
+    .menuCont ul.root li li:hover, .menuCont ul.root li.thrdLvlMn li:hover{background:url("https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/arrWht.png") no-repeat scroll 7px 15px #53b6df !important; color:#fff !important}
+    .menuCont ul.root li li a:hover, .menuCont ul.root li.thrdLvlMn li a:hover{color:#57585b !important}
+    .menuCont ul.root li li a{ }
+	.menuCont ul.root li.thrdLvlMn li.lvl2_52{width:100% !important; }
+	.menuCont ul.root li.thrdLvlMn li.lvl2_67{width:100% !important;}
+    .menuCont ul.root li.OFMstatic a {width:80%; height:auto !important; line-height:normal !important; padding:10px 0px 10px 0px !important;}
+    .menuCont ul.root li.thrdLvlMn li a{text-indent:0px !important; padding-left:0px !important;}
+    .menuCont ul.root .lvl3 a { padding-left:0px !important}
+	.menuCont ul.root .OFMdynamic li{width:90% !important; height:auto !important; line-height:normal !important; padding-left:10% !important}
+    .menuCont ul.root li.OFMstatic li a:nth-child(1):hover{color:#fff !important}
+    .OFMstatic:nth-child(6) ul{left:inherit !important}
+    .smallBtn, .smallBtnGry {padding:7px 40px 10px; margin:0px !important}
+    .errorMsg{background: url("https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/errorIc.png") no-repeat scroll 5px center #838588;
+    border-radius: 5px;
+    color: #fff !important;
+    display: block;
+    float: left;
+    line-height: 35px;
+    margin-top: 5px;
+    padding-right: 7px;
+    text-indent: 30px;
+    width: auto;}
+
+    /*email subscribe Begins*/
+    .email-subscribe input[type="text"]{width:57% !important; padding:0;}
+    .email-subscribe input[type="submit"]{width:30% !important;}
+    .email-subscribe .email-valid, .email-subscribe .email-invalid {width:85%; }
+    /*email subscribe Ends*/
+
+
+    /*Contact us Begins*/
+    .spot > label, .radio-group .label{text-align:left; padding:0 !important; width:98%; margin:0 1%; }
+    .spot input[type="text"]{width:84% !important; height:30px; margin:0 1%; }
+    .spot textarea{width:84% !important; margin:0 1%;}
+    .spot select{width:86.3% !important; height:30px; margin:0 1%;}
+    .spot input[type="file"]{height:30px; width:50% !important; margin:0 1%;}
+    .spot input[type="submit"]{ margin:0 1%; }
+    .radio-group > span{padding:0; margin:0 1% !important;}
+    .set-hdr .req{padding:0 !important; margin:0 1%;}
+
+    .spot.time select:nth-of-type(1){width:60% !important;}
+    .spot.time select:nth-of-type(2){ width:23.3% !important;}
+
+    .spot.actions{}
+
+    .spot.opts > input[type="checkbox"]{margin:3px 6px 0 1%;}
+
+    .contact-before-after{border-top:2px solid #ccc !important; border-bottom:2px solid #ccc !important;}
+    .contact-before-after dl{margin:0 0 12px;}
+    .contact-before-after > div#before-after{margin:3% 0; width:94% !important;  }
+    .contact-before-after .contact-before{float:left; margin:0 2% 0 0; width:49%;}
+    .contact-before-after .contact-after{float:left; width: 49%;}
+    .contact-before-after .contact-smallBtn{padding:10px 0 0;}
+    .contact-before-after .smallBtn{width:28%;}
+
+    .team-contact{margin:3% 0 0 0; float:left;}
+    .team-contact > div{width:75%;}
+    .checkbox {width: 95% !important;}
+
+    .tcdesign .threeColmsPrnt {width: 65% !important;}
+    .tcdesign .lastColm.grybox-contact {width: 35% !important;}
+    .tcdesign .lastColm.grybox-contact > .grybox {width: 95% !important;}    
+    .tcdesign .lastColm.grybox-contact > .grybox:last-child {margin: 20px 0 0;}
+
+    .tcdesign .lastColm.grybox-contact > div { margin:0 !important; width:96% !important;}
+ 
+
+    /*Contact us Ends*/
+}
+@media (max-width:630px){
+    header .logoColm {width:58% !important;}
+    /*.campaignSptl .text p:nth-child(1), .campaignSptl .text p:nth-child(3){display:none} */
+    footer .copyRightRow a:nth-child(1){margin-left:0px !important}
+}
+
+@media (max-width:550px){
+    .wrapper{overflow:hidden}
+    .bgCircles{display:none}
+	.part2 .titleRow a, .part2 .threeColmRow, .search{ display:none}
+	
+	.mobNo{display:none !important}
+	.mobYes{display:inline}
+	
+    header .logoColm {width:auto; height:96px; z-index:4}
+    header .logoColm img.logo{height:90px; margin-top:0px;}
+    header{height:150px !important;}
+    header nav{width:30% !important; z-index:1}
+    .menuCont ul.root ul{top:115px !important}
+    .menuCont ul.root ul ul{top:0px !important}
+    .bannerImg img {}
+	.contact{border:0px; position:absolute; height:40px; line-height:40px; padding:0; width:27%; right:0px; top:0px; margin:0px; margin-top:0px !important}
+    .srcPopCopy {right:0px; position: inherit !important; float:right !important; width:237px !important; background:#dfdfdf; border-bottom:1px solid #b9babb; padding:5px 0 5px 10px }
+	.ms-mpSearchBox{ background:#57585b; padding-left:5px; padding-bottom:5px; width:215px; height:43px; padding-right:5px;}
+	.ms-srch-sb > input{width:165px !important; background:none; border:0px;}
+    .part1 .imgRow .ms-rtestate-field {display:none}
+	.topNav{position:absolute; z-index:5}
+    .topNav li:nth-child(2), .topNav li:nth-child(3){display:none}
+    .topNav li li:nth-child(2), .topNav li li:nth-child(3){display:block}
+	.topNav li:nth-child(1){ background:none}
+	
+	.dvcdrop{display:none; float:right !important}
+    .dvcdrop ul, .dvcdrop div{display:block}
+	.signin{position:relative; float: right !important; height:auto; background:#dfdfdf; width:247px;}
+	.signin ul{width:100%; /*border-bottom:1px solid #b9babb;*/ float:left}
+    .signin ul li{ width:auto; clear:none; border-bottom:0px solid #b9babb}
+    /*Select a Market Begins*/
+    .select-market-table{width:95%; margin-left:1%; padding:1.5%;}
+    .sltMrtRow .titleRow h5{ width:100%;; margin-bottom:20px;} 
+    .sltMrtRow .row .colm{width:99%;}
+	.market-search-wrap{width:100%;}
+	.select-market h1{font:25px arial;}
+	.select-market h4{font:bold 12px arial;}
+	.market-search{width:92%; }
+	.market-search input{width:84%;}
+	.select-market .colm4row .threeColmsPrnt .colm{text-align:center;}
+	.select-market .colm4row .threeColmsPrnt .colm ul li a{text-align:center;}
+    .select-market-table .sltMrtCont{height:400px !important; overflow:hidden}
+    .close-market{width:25px; height:25px; border-radius:12px; top:2px; right:2px;}
+    .market-search-wrap h1 {font-size:31px !important; padding-bottom:15px !important;}
+    .sltMrtCont .row{ overflow:auto;}
+    /*Select a Market Ends*/
+
+    .sltCntMkt{background: none repeat scroll 0 0 #dfdfdf;clear: both;float: right !important;width: 100%;}
+    .sltCntMkt ul li {border-bottom: 1px solid #b9babb;clear: both;width: 100%;}
+    nav.mainNav li a, .signin li a {font:normal 14px arial }
+    nav ul.root{display:block; right:-2px; position:inherit !important; margin-top:115px;}
+    .menuCont{width:100%;}
+
+  
+    .part2 h1 {margin-top:0px;}
+    .part4 .txt {width:205px !important}
+
+	footer{width:92%; padding:40px 4% !important}
+	footer .colm:nth-of-type(1) .row{width:100%;}
+	
+	footer .colm{width:50%;}
+	footer input[type="text"]{ width:60% !important; margin-right:0px;}
+	footer input[type="button"]{width:35% !important; display:table-row !important}
+	
+	footer .paddingTop20 a:nth-child(1){ display:block;}
+	footer .paddingTop20 span:nth-child(2){display:none}
+	footer .paddingTop20 a{padding:0 5px; margin-right:0px;}
+	.copyRight{display:block; clear:both; width:80%; margin-top:30px; float:left}
+
+    .menuCont div{float:left; clear:both;}
+    .menuCont ul.root li{width:94% !important}
+    
+    
+    .menuCont ul.root li.thrdLvlMn li.lvl2_52{width:100% !important; }
+	.menuCont ul.root li.thrdLvlMn li.lvl2_67{width:100% !important;}
+	.smallBtn {padding:7px 40px 10px; margin:0px !important}
+    .smallBtnGry {padding:7px 30px 10px; margin:0px !important}
+    footer .copyRightRow a{margin:0 10px !important}
+    footer .copyRightRow a:nth-child(1){margin-left:0px !important; margin-bottom:6px; display:block}
+    footer .copyRightRow a:nth-child(3) {margin-left: 0px !important;}
+
+
+    /*email subscribe Begins*/
+    .email-subscribe input[type="text"]{width:57% !important; padding:0;}
+    .email-subscribe input[type="submit"]{width:30% !important;}
+    .email-subscribe .email-valid, .email-subscribe .email-invalid {width:85%; }
+    /*email subscribe Ends*/
+
+    /*Contact us Begins*/
+    .errorDisplay{width:92% !important;}
+
+    .contactInfo{width:99%; padding:0 !important; }
+    .contactInfo .set-hdr{padding:0 0 8px !important;}
+    .contactInfo .set-hdr > span{padding:0 !important;}    
+    .contactInfo .checkbox{width:100% !important;}
+
+    .spot > label, .radio-group .label{text-align:left; padding:0 !important; width:100%; }
+    .spot input[type="text"]{width:95% !important; height:30px; margin:0 1%; }
+    .spot textarea{width:95% !important; margin:0 1%; }
+    .spot select{width:99% !important; height:30px; margin:0 1%;}
+    .spot input[type="file"]{width:95% !important;}
+    .spot input[type="submit"]{margin:0 1%;}
+
+    .spot.opts > input[type="checkbox"]{margin:3px 6px 0 1%;}
+
+    .spot.time select:nth-of-type(1){width:68% !important;}
+    .spot.time select:nth-of-type(2){ width:26.7% !important;}
+
+    .spot.actions{width:100%;}
+    .spot.actions > label {height:0;}
+    
+    .radio-group > span{padding:0; }
+
+    .team-contact{float:left; margin:15px 0;}
+    .team-contact > div{width:100%;}
+    .team-contact > a{margin:8px 0 !important;}
+
+
+
+    .grybox-contact, .contact-before-after{border-top:2px solid #ccc; border-bottom:2px solid #ccc;}
+    .grybox-contact .grybox{margin:6% 0 !important;}
+    .grybox-contact .grybox:last-child{min-height:100px !important;}
+    .required.checkbox a{display:inline;}
+
+    .contact-before-after .contact-before , .contact-before-after .contact-after{width:100%; margin:0; float:none; }
+    .contact-before-after .smallBtn{width:94%;}
+
+    .tcdesign .threeColmsPrnt{width:100% !important;}
+    .lastColm.grybox-contact > .grybox { width:93% !important;}    
+    .lastColm.grybox-contact > .grybox:last-child {margin: 0 0 20px !important;}
+
+    .t4design-heading{padding:0 1%;}
+    .t4design-heading h1{display:block !important;}
+
+    /*Contact us Ends*/
+}
+.icon_gplus{display:none !important;}
+.outfront-media{display:none !important;}
+/*
+#ms-designer-ribbon {display:block; position:absolute; z-index:20; width:200px;}
+
+.ms-signInLink{display:none !important;}
+#suiteBarLeft, #suiteBarRight{display:none}
+#s4-ribbonrow, #siteactiontd{display:none}
+    */
+
+/*This is for Print page Begins*/
+@media print{
+    .page_title_block > span, header nav, li.select-market, .contact, #siteactiontd, .email-subscribe, footer .sol, .smallBtn, .smallBtnGry, .request_pricing_proposal, .btn_rp{display:none;}
+    .page_title_block h3, .tab_heading{font-size: 26px; }
+    .tab_heading { padding:0 !important;}
+    .home section h1{font-size:20px; margin:0;}
+    .InmainTitle h2{font-size:17px;}
+    .home section{padding:10px 2% 0 !important;}
+	header{position:inherit;}
+	.wrapper{padding:0;}
+}
+
+
+/*Print page Ends*/

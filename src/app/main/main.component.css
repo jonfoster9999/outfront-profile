@@ -1,0 +1,54 @@
+.resume-header {
+	font-size: 1.3em;
+	background:#fff url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/topnavBg.jpg?v=2)
+}
+
+.resume-link {
+	font-size: 1.1em;
+	text-decoration: underline;
+	margin-left: 4px;
+}
+
+.resume-link:hover {
+	cursor: pointer;
+
+}
+
+a.resume-link {
+	font-size: .9em;
+}
+
+.resume-title {
+	margin-bottom: 2px;
+}
+
+.res-desc {
+	font-size: .8em;
+	font-weight: 400;
+}
+
+h5 {
+	margin-left: 8px;
+}
+a.anchor{ position: relative; top: -250px; visibility: hidden;}
+
+.resume-bullet {
+	color: rgb(0, 0, 78);
+	list-style: none;
+	margin-left: 8px;
+}
+
+.employment-item, .education-item {
+	margin-left: 8px;
+	margin-bottom: 0px;
+}
+
+section {
+	width: 100%;
+	padding: 30px;
+}
+
+.employment-item + ul li,
+.education-item + ul li {
+	margin-left: 12px;
+}

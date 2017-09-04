@@ -1,20 +1,177 @@
-<!--The whole content below can be removed with the new code.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{title}}!!
-  </h1>
-  <img width="300" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAyNTAgMjUwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNTAgMjUwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDojREQwMDMxO30NCgkuc3Qxe2ZpbGw6I0MzMDAyRjt9DQoJLnN0MntmaWxsOiNGRkZGRkY7fQ0KPC9zdHlsZT4NCjxnPg0KCTxwb2x5Z29uIGNsYXNzPSJzdDAiIHBvaW50cz0iMTI1LDMwIDEyNSwzMCAxMjUsMzAgMzEuOSw2My4yIDQ2LjEsMTg2LjMgMTI1LDIzMCAxMjUsMjMwIDEyNSwyMzAgMjAzLjksMTg2LjMgMjE4LjEsNjMuMiAJIi8+DQoJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIxMjUsMzAgMTI1LDUyLjIgMTI1LDUyLjEgMTI1LDE1My40IDEyNSwxNTMuNCAxMjUsMjMwIDEyNSwyMzAgMjAzLjksMTg2LjMgMjE4LjEsNjMuMiAxMjUsMzAgCSIvPg0KCTxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik0xMjUsNTIuMUw2Ni44LDE4Mi42aDBoMjEuN2gwbDExLjctMjkuMmg0OS40bDExLjcsMjkuMmgwaDIxLjdoMEwxMjUsNTIuMUwxMjUsNTIuMUwxMjUsNTIuMUwxMjUsNTIuMQ0KCQlMMTI1LDUyLjF6IE0xNDIsMTM1LjRIMTA4bDE3LTQwLjlMMTQyLDEzNS40eiIvPg0KPC9nPg0KPC9zdmc+DQo=" />
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" href="https://angular.io/docs/ts/latest/tutorial/">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" href="http://angularjs.blogspot.ca/">Angular blog</a></h2>
-  </li>
-</ul>
+<style>
+  .rowsmedia {
+    background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/footerBg.jpg) repeat;
+    height:35px;
+    width:100%;
+  }
+
+  .smedia{
+    float:right;
+  }
+
+  .googleIc {
+    background: rgba(0, 0, 0, 0) url("https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/googleIc-20.png") no-repeat scroll 0 0;
+    display: block;
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin: 7px;
+    opacity:0.5;
+  }
+
+  .googleIc:hover { background: rgba(0, 0, 0, 0) url("https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/googleIcHov-20.png") no-repeat scroll 0 0;   opacity:1;}
+
+  .fbIc {
+    background: rgba(0, 0, 0, 0) url("https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/fbIc-20.png") no-repeat scroll 0 0;
+    display: block;
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin: 7px;
+      opacity:0.5;
+  }
+
+  .fbIc:hover { background: rgba(0, 0, 0, 0) url("https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/fbIcHov-20.png") no-repeat scroll 0 0; opacity:1;}
+
+  .twiterIc {
+    background: rgba(0, 0, 0, 0) url("https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/twiterIc-20.png") no-repeat scroll 0 0;
+    display: block;
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin: 7px;
+      opacity:0.5;
+  }
+
+  .twiterIc:hover { background: rgba(0, 0, 0, 0) url("https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/twiterIcHov-20.png") no-repeat scroll 0 0; opacity:1;}
+
+  .lnkdinIc {
+    background: rgba(0, 0, 0, 0) url("https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/lnkdinIc-20.png") no-repeat scroll 0 0;
+    display: block;
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin: 7px;
+      opacity:0.5;
+  }
+
+  .lnkdinIc:hover { background: rgba(0, 0, 0, 0) url("https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/lnkdinIcHov-20.png") no-repeat scroll 0 0; opacity:1; }
+
+  .instgramIc {
+    background: rgba(0, 0, 0, 0) url("https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/instgramIc-20.png") no-repeat scroll 0 0;
+    display: block;
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin: 7px;
+      opacity:0.5;
+  }
+
+  .instgramIc:hover { background: rgba(0, 0, 0, 0) url("https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/instgramIcHov-20.png") no-repeat scroll 0 0; opacity:1;}
+
+  .youtubeIc {
+    background: rgba(0, 0, 0, 0) url("https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/youtubeIc-20.png") no-repeat scroll 0 0;
+    display: block;
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin: 7px;
+      opacity:0.5;
+  }
+
+  .youtubeIc:hover { background: rgba(0, 0, 0, 0) url("https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/youtubeIcHov-20.png") no-repeat scroll 0 0;opacity:1; }
+
+  .blogIc {
+    background: rgba(0, 0, 0, 0) url("https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/blogIc-20.png") no-repeat scroll 0 0;  
+    display: block;
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin: 7px;
+    padding-right:10px;
+      opacity:0.5;
+  }
+
+  .blogIc:hover { background: rgba(0, 0, 0, 0) url("https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/blogIcHov-20.png") no-repeat scroll 0 0; padding-right:10px;opacity:1;}
+    
+    @media only screen and (max-width: 500px) {
+      #logo {
+          height: 70%;
+    }
+  }
+</style>
+
+<body class=" ms-backgroundImage">
+  <div id="imgPrefetch" style="display:none">
+		<img src="https://www.outfrontmedia.com/_layouts/15/images/spcommon.png?rev=23">
+	</div>
+
+  <div class="bgCircles">
+    <div></div>
+  </div>
+  <div class="wrapper home">
+              <!-- Header -->
+    <header>
+    	<div class="rowsmedia"> 
+      	<div class="wrapper" style="padding-top:0px !important;">
+	      	<div class="smedia">
+		      	<a class="fbIc" target="_blank" href="https://www.facebook.com/jonathan.foster.165470"></a> 
+		      	<a class="twiterIc" target="_blank" href="https://twitter.com/JonFosterNy"></a> 
+		      	<a class="lnkdinIc" target="_blank" href="https://www.linkedin.com/in/jonathan-foster-ny/"></a> 
+		      	<a class="instgramIc" target="_blank" href="https://www.instagram.com/jonfoster9999/"></a> 
+	      	</div>
+     		</div>
+    	</div>
+    	<div class="header noindex ms-dialogHidden">
+    		<div class="topNav">
+					<ul>
+	    				<li class="countryList" id="countryList"><a>&nbsp;Jonathan Foster&nbsp;</a></li>
+	    				<li class="select-market" id="select-market">
+	        				<a>Front End Developer</a>
+	    				</li>
+					</ul>
+        </div>
+        <div class="logoColm">
+          <a href="/">
+            <img class="logo" id="logo" src="./assets/outfront.png">
+          </a>
+        </div>
+        <a href="mailto:jon.foster.ny@gmail.com" class="contact">CONTACT ME</a>
+       	<nav class="mainNav">
+          <div class="menuCont">
+            <div class="mn dskNo tabYes mobYes"> 
+            </div>
+            <div class="search">
+              <span class="srcIc">&nbsp;</span>
+            </div>
+            <div class="dvcdrop">
+					    <div>
+							    <ul id="sfsMenu" class="root" style="display: none;">
+								    <li class="OFMstatic 1">
+  								 <span class="lnk"><a routerLink="" class="1">Home</a></span>
+							    </li>
+					        <li class="OFMstatic 1">
+					    	   <span class="lnk"><a routerLink="about" class="1">About Me</a></span>
+					        </li>
+					        <li class="OFMstatic 3" id="last">
+					          <span class="lnk"><a routerLink="projects" class="3">Projects</a></span>
+					        </li>
+						    </ul>
+					    </div>   
+            </div>
+          </div>
+        </nav>
+    	</div>
+	  </header>
+	  
+    <router-outlet></router-outlet>
+
+		<footer class="ms-dialogHidden noindex">
+      <div class="copyRightRow">
+        <a href="https://github.com/jonfoster9999">Github</a><span>/</span><a href="https://www.linkedin.com/in/jonathan-foster-ny/">LinkedIn</a>
+        <span class="pull-right"><a href="/">jon.foster.ny@gmail.com</a></span>
+      </div>
+    </footer>
+  </div>
+</body>
 
