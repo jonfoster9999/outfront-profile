@@ -603,6 +603,11 @@ margin:.7em .7em .7em .7em;
 	color: red;
 }
 
+.ms-backgroundImage {
+	
+	max-height: 629px;
+}
+
 ul li#countryList a:hover,
 ul li#select-market a:hover  {
 	color: rgb(102, 102, 102) !important;
