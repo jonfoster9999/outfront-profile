@@ -639,5 +639,11 @@ div.search {
 	}	
 }
 
+@media only screen and (max-width: 550px) {
+	#divider {
+		display: none;
+	}
+}
+
 
 
