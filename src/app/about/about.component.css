@@ -30,3 +30,9 @@ img {
 		padding-right: 170px;
 	}
 }
+
+@media only screen and (max-width: 940px) {
+	img {
+		margin-top: 30px;
+	}
+}
