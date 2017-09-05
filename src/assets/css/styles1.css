@@ -30,7 +30,7 @@ header .logoColm img{height:100%;}
 nav.mainNav li#last{background:url() no-repeat right; padding:0px 10px 0 8px; list-style:none; float:left; height:40px; line-height:40px;}
 
 @media only screen and (max-width: 940px) {
-	.topNav li, nav.mainNav li{
+	nav.mainNav li{
 		background:url();
 	}
 }
