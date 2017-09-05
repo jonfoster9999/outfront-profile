@@ -6,3 +6,12 @@ img {
 .row {
 	width: 100%;
 }
+
+.statement {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.main {
+	min-width: 500px;
+}

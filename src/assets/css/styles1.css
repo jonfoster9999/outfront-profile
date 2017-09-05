@@ -22,9 +22,18 @@ header .logoColm{width:24.5%; float:left; height:70%; margin-top:25px; padding-l
 header .logoColm img{height:100%;}
 .headSmall .logoColm img{ width:48%; height:60%; padding-top:15px;}
 .topNav{/*margin-left:32%;*/ float:left;}
+
+
 /* here!!!! */
 .topNav li, nav.mainNav li{background:url(https://www.outfrontmedia.com/_layouts/15/IMAGES/OFMWebsite/img/divider.png) no-repeat right; padding:0px 10px 0 8px; list-style:none; float:left; height:40px; line-height:40px;}
+
 nav.mainNav li#last{background:url() no-repeat right; padding:0px 10px 0 8px; list-style:none; float:left; height:40px; line-height:40px;}
+
+@media only screen and (max-width: 940px) {
+	.topNav li, nav.mainNav li{
+		background:url();
+	}
+}
 .topNav li{height:45px !important;}
 .topNav li:last-child, .signin li:last-child{background:none !important}
 .signin li a {font:bold 12px arial;}
