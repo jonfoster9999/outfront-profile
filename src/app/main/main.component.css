@@ -72,8 +72,15 @@ h1{
 	margin-top: -10px;
 }
 
+@media only screen and (max-width: 940px) {
+	#placeholder1 {
+		padding-top: 40px;
+	}
+}
+
 @media only screen and (max-width: 970px) and (min-width: 940px) {
 	.join {
 		display: none;
 	}
 }
+
