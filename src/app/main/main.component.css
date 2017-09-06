@@ -117,3 +117,14 @@ section h1 {
 	margin-top: 20px;
 }
 
+.contain {
+	margin-top: 40px;
+	border: none;
+	width: 100%;
+	padding: 0px;
+}
+
+body.ms-backgroundImage {
+	border: 10px solid orange;
+}
+
