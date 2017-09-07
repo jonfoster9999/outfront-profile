@@ -47,8 +47,6 @@ section {
 	width: 100%;
 	padding: 30px;
 	padding-top: 0px;
-	border: 3px solid #eee;
-	background-color: #fefefe;
 }
 
 h1{
@@ -101,9 +99,9 @@ section h1 {
 	margin-right: auto;
 	flex-wrap: wrap;
 	max-width: 1060px;
+	padding-bottom: 10px;
 	background-color: rgb(241, 241, 241);
 	border-radius: 4px;
-	border-top: 1px solid #eee;
 	border-bottom: 1px solid #eee;
 }
 
@@ -111,10 +109,14 @@ section h1 {
 	height: 100px;
 	width: 100px;
 	display: block; 
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
 	margin-top: 20px;
+}
+
+.languages img:nth-child(1), .languages img:nth-child(2) {
+	margin-bottom: 20px;
 }
 
 .contain {
@@ -122,9 +124,67 @@ section h1 {
 	border: none;
 	width: 100%;
 	padding: 0px;
+	border-left: 3px solid rgb(230, 230, 230);
+	border-right: 3px solid rgb(230, 230, 230);
+	border-top: 3px solid rgb(230, 230, 230);
+	background-color: rgb(241, 241, 241);
+	margin-bottom: 0px;
+}
+a.list-group-item {
+    height:auto;
+    min-height:220px;
+    padding-top: 35px;
 }
 
-body.ms-backgroundImage {
-	border: 10px solid orange;
+a.list-group-item img {
+    margin-bottom: 20px;
 }
+a.list-group-item.active small {
+    color:#fff;
+}
+.stars {
+    margin:20px auto 1px;    
+}
+
+.disclaimer {
+	font-size: .8em;
+	margin-top: -25px;
+	margin-bottom: 20px;
+}
+
+img {
+	border-radius: 0px;
+}
+
+.media {
+	padding: 5px;
+}
+
+.row {
+	width: 100%;
+}
+
+small {
+	font-size: .3em;
+}
+
+.host {
+	font-size: .6em;
+	position: relative;
+	top: -2px;
+}
+
+.main {
+	background-color: white;
+	border: none;
+}
+
+/*@media only screen and (min-width: 960px) {
+.container {
+	max-width: 1200px;
+	margin-left: auto;
+	}
+}*/
+
+
 
